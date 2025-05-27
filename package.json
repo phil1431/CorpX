@@ -1,0 +1,13 @@
+{
+  "name": "corpx-email-validator-api",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'Build completed'",
+    "start": "node api/validate.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dns": "^0.2.2",
+    "net": "^1.0.2"
+  }
+}
