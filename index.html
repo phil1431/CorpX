@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résidence en Suisse - France Web Services Ltd</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="https://flagcdn.com/w40/ch.png" alt="Drapeau Suisse" class="flag-icon">
+                    <span class="logo-text">France Web Services</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#packages">Forfaits</a></li>
+                    <li><a href="#entreprises">Entreprises</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Obtenez votre <span class="highlight">Résidence en Suisse</span></h1>
+                <p class="hero-subtitle">Permis B légal via un service cantonal de Zurich</p>
+                <p class="hero-description">
+                    France Web Services Ltd vous accompagne dans l'obtention de votre résidence suisse 
+                    de manière 100% légale grâce à notre partenariat avec les services cantonaux.
+                </p>
+                <div class="hero-price">
+                    <span class="price-label">À partir de</span>
+                    <span class="price">8'650 CHF</span>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('packages')">
+                        <i class="fas fa-arrow-right"></i>
+                        Découvrir nos forfaits
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                        <i class="fas fa-phone"></i>
+                        Nous contacter
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Paysage suisse" class="mountain-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Pourquoi choisir la Suisse ?</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Stabilité politique</h3>
+                    <p>Un pays neutre avec une démocratie stable et des institutions fiables</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Économie prospère</h3>
+                    <p>L'une des économies les plus stables au monde avec un franc fort</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Qualité de vie</h3>
+                    <p>Système de santé excellent, sécurité et environnement préservé</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Éducation de qualité</h3>
+                    <p>Système éducatif reconnu mondialement et universités prestigieuses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <h2 class="section-title">Nos Forfaits Résidence</h2>
+            <p class="section-subtitle">Des solutions complètes pour votre installation en Suisse</p>
+            
+            <div class="packages-grid">
+                <!-- Forfait de base -->
+                <div class="package-card featured">
+                    <div class="package-badge">Le plus populaire</div>
+                    <div class="package-header">
+                        <h3>Permis B</h3>
+                        <div class="package-price">
+                            <span class="currency">CHF</span>
+                            <span class="amount">8'650</span>
+                        </div>
+                        <p class="package-description">Résidence légale en Suisse</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Permis B (Autorisation de séjour)</li>
+                        <li><i class="fas fa-check"></i> Procédure 100% légale</li>
+                        <li><i class="fas fa-check"></i> Service cantonal de Zurich</li>
+                        <li><i class="fas fa-check"></i> Accompagnement complet</li>
+                        <li><i class="fas fa-check"></i> Garantie de résultat</li>
+                    </ul>
+                    <button class="btn btn-package">Choisir ce forfait</button>
+                </div>
+
+                <!-- Forfait Adresse -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Permis B + Adresse</h3>
+                        <div class="package-price">
+                            <span class="currency">CHF</span>
+                            <span class="amount">10'500</span>
+                        </div>
+                        <p class="package-description">Résidence avec adresse officielle</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Permis B</li>
+                        <li><i class="fas fa-check"></i> Adresse en Suisse (5 ans)</li>
+                        <li><i class="fas fa-check"></i> Domiciliation légale</li>
+                        <li><i class="fas fa-check"></i> Réception courrier</li>
+                        <li><i class="fas fa-check"></i> Support administratif</li>
+                    </ul>
+                    <button class="btn btn-package">Choisir ce forfait</button>
+                </div>
+
+                <!-- Forfait Banque -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Permis B + Banque</h3>
+                        <div class="package-price">
+                            <span class="currency">CHF</span>
+                            <span class="amount">11'500</span>
+                        </div>
+                        <p class="package-description">Avec compte bancaire suisse</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Permis B + Adresse (5 ans)</li>
+                        <li><i class="fas fa-check"></i> Compte bancaire suisse</li>
+                        <li><i class="fas fa-check"></i> UBS, Crédit Suisse, Banques Cantonales</li>
+                        <li><i class="fas fa-check"></i> Carte bancaire incluse</li>
+                        <li><i class="fas fa-check"></i> Services bancaires complets</li>
+                    </ul>
+                    <button class="btn btn-package">Choisir ce forfait</button>
+                </div>
+
+                <!-- Forfait Permis de conduire -->
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Permis B + Conduite</h3>
+                        <div class="package-price">
+                            <span class="currency">CHF</span>
+                            <span class="amount">11'000</span>
+                        </div>
+                        <p class="package-description">Avec permis de conduire</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Permis B + Adresse</li>
+                        <li><i class="fas fa-check"></i> Permis de conduire suisse</li>
+                        <li><i class="fas fa-check"></i> Conversion automatique</li>
+                        <li><i class="fas fa-check"></i> Validité européenne</li>
+                        <li><i class="fas fa-check"></i> Démarches simplifiées</li>
+                    </ul>
+                    <button class="btn btn-package">Choisir ce forfait</button>
+                </div>
+
+                <!-- Forfait Complet -->
+                <div class="package-card premium">
+                    <div class="package-badge premium-badge">Forfait Premium</div>
+                    <div class="package-header">
+                        <h3>Forfait Complet</h3>
+                        <div class="package-price">
+                            <span class="currency">CHF</span>
+                            <span class="amount">12'500</span>
+                        </div>
+                        <p class="package-description">Solution tout-en-un</p>
+                    </div>
+                    <ul class="package-features">
+                        <li><i class="fas fa-check"></i> Permis B + Adresse (5 ans)</li>
+                        <li><i class="fas fa-check"></i> Permis de conduire suisse</li>
+                        <li><i class="fas fa-check"></i> Compte bancaire suisse</li>
+                        <li><i class="fas fa-check"></i> Accompagnement VIP</li>
+                        <li><i class="fas fa-check"></i> Support prioritaire</li>
+                    </ul>
+                    <button class="btn btn-package premium-btn">Choisir ce forfait</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Business Section -->
+    <section id="entreprises" class="business">
+        <div class="container">
+            <h2 class="section-title">Solutions Entreprises</h2>
+            <p class="section-subtitle">Créez votre entreprise en Suisse avec résidence incluse</p>
+            
+            <div class="business-grid">
+                <div class="business-card">
+                    <div class="business-header">
+                        <h3>SARL (GmbH)</h3>
+                        <div class="business-price">
+                            <span class="currency">CHF</span>
+                            <span class="amount">16'000</span>
+                        </div>
+                    </div>
+                    <div class="business-features">
+                        <ul>
+                            <li><i class="fas fa-building"></i> Formation de SARL</li>
+                            <li><i class="fas fa-id-card"></i> Permis B inclus</li>
+                            <li><i class="fas fa-university"></i> Compte bancaire professionnel</li>
+                            <li><i class="fas fa-file-contract"></i> Statuts et documents légaux</li>
+                            <li><i class="fas fa-handshake"></i> Accompagnement juridique</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-business">En savoir plus</button>
+                </div>
+
+                <div class="business-card premium">
+                    <div class="business-badge">Entreprise Premium</div>
+                    <div class="business-header">
+                        <h3>SA (AG)</h3>
+                        <div class="business-price">
+                            <span class="currency">CHF</span>
+                            <span class="amount">25'000</span>
+                        </div>
+                        <p class="business-note">Sans capital social requis</p>
+                    </div>
+                    <div class="business-features">
+                        <ul>
+                            <li><i class="fas fa-crown"></i> Formation de SA</li>
+                            <li><i class="fas fa-id-card"></i> Permis B inclus</li>
+                            <li><i class="fas fa-university"></i> Compte bancaire professionnel</li>
+                            <li><i class="fas fa-shield-alt"></i> Protection juridique renforcée</li>
+                            <li><i class="fas fa-chart-line"></i> Conseils fiscaux inclus</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-business premium-btn">En savoir plus</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title">Notre processus en 4 étapes</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Consultation</h3>
+                        <p>Analyse de votre situation et choix du forfait adapté</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Préparation</h3>
+                        <p>Constitution du dossier et préparation des documents</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Soumission</h3>
+                        <p>Dépôt officiel auprès des autorités cantonales</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Finalisation</h3>
+                        <p>Obtention du permis et services complémentaires</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contactez-nous</h2>
+                    <p>Prêt à commencer votre nouvelle vie en Suisse ? Notre équipe d'experts vous accompagne à chaque étape.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-globe"></i>
+                            <div>
+                                <h4>Site web</h4>
+                                <a href="https://francewebservices.fr" target="_blank">francewebservices.fr</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:contact@francewebservices.fr">contact@francewebservices.fr</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Horaires</h4>
+                                <p>Lun-Ven: 9h-18h<br>Sam: 9h-12h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="">Choisissez un service</option>
+                                <option value="permis-b">Permis B - 8'650 CHF</option>
+                                <option value="permis-adresse">Permis B + Adresse - 10'500 CHF</option>
+                                <option value="permis-banque">Permis B + Banque - 11'500 CHF</option>
+                                <option value="permis-conduite">Permis B + Conduite - 11'000 CHF</option>
+                                <option value="forfait-complet">Forfait Complet - 12'500 CHF</option>
+                                <option value="sarl">SARL (GmbH) - 16'000 CHF</option>
+                                <option value="sa">SA (AG) - 25'000 CHF</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Votre message" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Envoyer ma demande
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://flagcdn.com/w40/ch.png" alt="Drapeau Suisse" class="flag-icon">
+                    <span>France Web Services Ltd</span>
+                </div>
+                <div class="footer-links">
+                    <a href="https://francewebservices.fr" target="_blank">Site officiel</a>
+                    <a href="#services">Services</a>
+                    <a href="#packages">Forfaits</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 France Web Services Ltd. Tous droits réservés.</p>
+                <p class="legal-notice">Services légaux via les autorités cantonales suisses</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
